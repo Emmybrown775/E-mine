@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="972abca0-bf96-4274-bf4d-28f5242c30de" name="Changes" comment="requirements.txt added">
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-    </list>
+    <list default="true" id="972abca0-bf96-4274-bf4d-28f5242c30de" name="Changes" comment="requirements.txt added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,7 +110,7 @@
       <workItem from="1699821190263" duration="4132000" />
       <workItem from="1699957589111" duration="1676000" />
       <workItem from="1699960708492" duration="8376000" />
-      <workItem from="1700035529724" duration="2148000" />
+      <workItem from="1700035529724" duration="2483000" />
     </task>
     <task id="LOCAL-00001" summary="e-mine phase n1">
       <created>1699965787128</created>
@@ -156,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700037484072</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="requirements.txt added">
+      <created>1700038093532</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1700038093532</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

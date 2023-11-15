@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for("static", filename="css/styles.css") }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Josefin+Sans&family=Montserrat&family=Quicksand&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+<nav class="my_navbar navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <img src="{{ url_for("static", filename = "/images/logo.png") }}" alt="Bootstrap" width="130" height="42">
+        <div class="navcontainer" onclick="myFunction(this)" data-bs-toggle="collapse"
+             data-bs-target="#navbarSupportedContent">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Buy coupon</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                       aria-expanded="false">
+                        Other Links
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Top Earners</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">FAQ</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                       aria-expanded="false">
+                        Other Links
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Login</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Register</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Coupon Checker</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Place Advert</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<hr class="solid">
+<div id="home-top">
+    <div class="home-top-text">
+        <h1>Mine & Earn</h1>
+        <h1>Weekly Income</h1>
+        <h1>On <span class="e-mine">e-Mine</span></h1>
+        <p>e-Mine is an online innovative designed to empower
+            its users and individuals with various ways of maximizing their earnings online and propel
+            their financial growth</p>
+        <button class="btn" type="button">Login</button>
+        <button class="btn" type="button">Sign Up</button>
+
+    </div>
+    <hr class="solid">
+</div>
+
+<div id="poster_1" class="poster_div">
+    <img class="poster" src="{{ url_for('static', filename= 'images/poster.PNG') }}">
+</div>
+<hr class="solid">
+
+<div id="why_choose_us">
+    <h1>Why Choose <br> <span class="e-mine">e-mine</span></h1>
+    <p>e-Mine is an intelligent financial system, that enables you to work and earn hugely online. It has the potential
+        to transform your financial status without you putting in much efforts. It's the new legitimate way to make
+        money online from our current economic evolution.</p>
+<div class="container text-center">
+<div class="row justify-content-center align-item-center">
+    {% for data in why_choose_us %}
+    <div class="why_choose_us_content card col-lg-4" >
+        <div class="card-title">
+        <h5>{{ data['title'] }}</h5>
+        </div>
+        <div class="card-body">
+        <p>{{ data['content'] }}</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+</div>
+
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+<script src="{{ url_for("static", filename="js/home.js") }}"></script>
+
+</body>
+</html>

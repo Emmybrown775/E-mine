@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="972abca0-bf96-4274-bf4d-28f5242c30de" name="Changes" comment="requirements.txt added">
+    <list default="true" id="972abca0-bf96-4274-bf4d-28f5242c30de" name="Changes" comment="requirements.txt added please 3">
+      <change beforePath="$PROJECT_DIR$/.idea/egc_ptc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/egc_ptc.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements" beforeDir="false" afterPath="$PROJECT_DIR$/requirements" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,28 +49,31 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Xr0Anf4Q30ANlSzwxQulNQaiSC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "test",
-    "last_opened_file_path": "C:/Users/DELL/PycharmProjects/portfolio/egc_ptc",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;test&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL/PycharmProjects/portfolio/egc_ptc&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\DELL\PycharmProjects\portfolio\egc_ptc\static\images" />
@@ -82,13 +87,15 @@
   </component>
   <component name="RunManager">
     <configuration name="egc_ptc" type="Python.FlaskServer">
+      <option name="flaskDebug" value="true" />
       <module name="egc_ptc" />
       <option name="target" value="$PROJECT_DIR$/app.py" />
       <option name="targetType" value="PATH" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="SDK_HOME" value="C:\Users\DELL\PycharmProjects\portfolio\egc_ptc\venv\Scripts\python.exe" />
+      <option name="SDK_NAME" value="Python 3.10 (egc_ptc)" />
+      <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -113,7 +120,9 @@
       <workItem from="1699821190263" duration="4132000" />
       <workItem from="1699957589111" duration="1676000" />
       <workItem from="1699960708492" duration="8376000" />
-      <workItem from="1700035529724" duration="3253000" />
+      <workItem from="1700035529724" duration="4134000" />
+      <workItem from="1700214841892" duration="3467000" />
+      <workItem from="1700219269561" duration="3758000" />
     </task>
     <task id="LOCAL-00001" summary="e-mine phase n1">
       <created>1699965787128</created>
@@ -171,7 +180,28 @@
       <option name="project" value="LOCAL" />
       <updated>1700038354161</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="requirements.txt added please">
+      <created>1700039723404</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1700039723404</updated>
+    </task>
+    <task id="LOCAL-00010" summary="requirements.txt added please 2">
+      <created>1700039867888</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1700039867888</updated>
+    </task>
+    <task id="LOCAL-00011" summary="requirements.txt added please 3">
+      <created>1700040231603</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1700040231603</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +236,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
@@ -214,9 +245,12 @@
     <MESSAGE value="git add" />
     <MESSAGE value="e-mine" />
     <MESSAGE value="requirements.txt added" />
-    <option name="LAST_COMMIT_MESSAGE" value="requirements.txt added" />
+    <MESSAGE value="requirements.txt added please" />
+    <MESSAGE value="requirements.txt added please 2" />
+    <MESSAGE value="requirements.txt added please 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="requirements.txt added please 3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/egc_ptc$egc_ptc.coverage" NAME="egc_ptc Coverage Results" MODIFIED="1699961454746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/egc_ptc$egc_ptc.coverage" NAME="egc_ptc Coverage Results" MODIFIED="1700220002096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

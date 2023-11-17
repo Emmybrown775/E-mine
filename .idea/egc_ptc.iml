@@ -3,9 +3,6 @@
   <component name="Flask">
     <option name="enabled" value="true" />
   </component>
-  <component name="PackageRequirementsSettings">
-    <option name="keepMatchingSpecifier" value="false" />
-  </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Jinja2" />
     <option name="TEMPLATE_FOLDERS">

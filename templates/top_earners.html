@@ -1,0 +1,28 @@
+{% include "header.html" %}
+
+<div class="page-top">
+    <h1>e-mine Top Earners</h1>
+</div>
+
+<div class="vendors">
+{% for earner in top_earners %}
+<div class="container vendor">
+    <div class="row justify-content-start align-items-center">
+        <div class="col-4 col-sm-4 ">
+            <img src="{{ url_for('static', filename='images/vendor.png')}}" alt="profile pic" height="100" width="100"
+                 class="profile_pic"
+            >
+
+        </div>
+        <div class="col-4 col-sm-4">
+            <h5>{{ earner.name }}</h5>
+            <h5>{{ earner.money_made }}</h5>
+        </div>
+
+    </div>
+</div>
+{% endfor %}
+
+</div>
+
+{% include "footer.html" %}

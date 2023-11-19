@@ -121,6 +121,10 @@ hr.solid {
 .my_navbar{
 }
 
+.dropdown-menu{
+    background-color: #202040;
+}
+
 /*Home Top*/
 
 #home-top{
@@ -208,8 +212,44 @@ hr.solid {
 
 #footer ul{
     list-style-type: none;
+    padding-left: 0;
+}
 
+#footer li{
+    text-align: center;
 }
 
 
+/*BUY COUPON*/
+.page-top{
+    padding: 20px;
+}
 
+.vendors{
+    padding: 50px 5%;
+}
+
+.vendor{
+    padding: 10px 10px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.profile_pic{
+    border-radius: 100px;
+}
+
+.message-btn {
+  background: #202040;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  border-radius: 28px;
+    font-family: 'Quicksand', sans-serif;  color: #ffffff;
+  border: solid #B030B0 2px;
+  text-decoration: none;
+    padding: 10px 10px;
+}
+
+.message-btn:hover {
+    background: #B030B0
+}

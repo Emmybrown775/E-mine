@@ -1,0 +1,28 @@
+{% include 'header.html' %}
+
+<div class="page-top">
+    <h1>Verified e-mine Vendors</h1>
+</div>
+
+<div class="vendors">
+{% for vendor in vendors %}
+<div class="container vendor">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-4 col-sm-4 ">
+            <img src="{{ url_for('static', filename='images/vendor.png')}}" alt="profile pic" height="100" width="100"
+                 class="profile_pic"
+            >
+
+        </div>
+        <div class="col-4 col-sm-4">
+            <h5>{{ vendor.name }}</h5>
+        </div>
+        <div class="col-4 col-sm-4">
+            <button class="message-btn" href="{{ vendor.contact_url }}">Message</button>
+        </div>
+    </div>
+</div>
+{% endfor %}
+
+</div>
+{% include 'footer.html' %}

@@ -33,7 +33,7 @@
                     <a class="nav-link" href="{{ url_for("buy_coupon") }}">Buy coupon</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About us</a>
+                    <a class="nav-link" href="{{ url_for("about_us") }}">About us</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -45,13 +45,13 @@
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item test" href="#">FAQ</a></li>
+                        <li><a class="dropdown-item test" href="{{ url_for('faq') }}">FAQ</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                        aria-expanded="false">
-                        Other Links
+                        Authentication
                     </a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Login</a></li>

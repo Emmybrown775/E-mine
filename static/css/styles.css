@@ -51,6 +51,12 @@ h5{
 
 }
 
+h3{
+    color: white;
+    font-size: 2rem;
+    font-family: 'Quicksand', sans-serif;
+
+}
 
 
 .head{
@@ -222,7 +228,7 @@ hr.solid {
 
 /*BUY COUPON*/
 .page-top{
-    padding: 20px;
+    padding: 5% 10%;
 }
 
 .vendors{
@@ -252,4 +258,23 @@ hr.solid {
 
 .message-btn:hover {
     background: #B030B0
+}
+
+
+/*Faqs*/
+.accordion-item{
+    background-color: #202040;
+    margin: 20px;
+}
+
+.accordion-button{
+    background-color: #202040;
+    color: white;
+    font-size: 1rem;
+        font-family: 'Quicksand', sans-serif;
+}
+
+.accordion-body{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
 }

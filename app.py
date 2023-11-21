@@ -1,15 +1,30 @@
 from flask import Flask, render_template
 from why_chose_data import why_choose_us
 from vendors import Vendors, TopEarners
+from forms import LoginForm, RegisterForm, CouponCheckForm
+from flask_bootstrap import Bootstrap
+import os
 
 app = Flask(__name__)
+app.config['SECRET_KEY'] = os.environ.get("SECRET_KEY")
 app_vendors = Vendors()
 app_top_earners = TopEarners()
+Bootstrap(app)
 
 
 @app.route('/')
-def hello_world():  # put application's code here
+def home():  # put application's code here
     return render_template("index.html", why_choose_us=why_choose_us)
+
+@app.route("/login")
+def login():
+    loginform = LoginForm()
+    return render_template("sign_in.html",form=loginform)
+
+@app.route('/register')
+def register():
+    register_form = RegisterForm()
+    return render_template("sign_up.html", form=register_form)
 
 
 @app.route('/vendors')
@@ -34,6 +49,11 @@ def how_it_works():
 @app.route('/faq')
 def faq():
     return render_template("faq.html")
+
+@app.route('/coupon-check')
+def coupon_check():
+    coupon_check_form = CouponCheckForm()
+    return render_template("coupon_checker.html", form=coupon_check_form)
 
 if __name__ == '__main__':
     app.run()

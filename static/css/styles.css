@@ -278,3 +278,37 @@ hr.solid {
     font-family: 'Quicksand', sans-serif;
     color: white;
 }
+
+/*LOGIN*/
+
+.login-btn {
+  background: #202040;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  border-radius: 28px;
+    font-family: 'Quicksand', sans-serif;  color: #ffffff;
+  border: solid #B030B0 2px;
+  text-decoration: none;
+    padding: 10px 10px;
+    width: 100%;
+}
+
+.login-btn:hover {
+    background: #B030B0
+}
+
+.form-padding{
+    padding: 20px 20px 0;
+}
+
+.form-control{
+    font-style: italic;
+    font-family: 'Playpen Sans', cursive;
+}
+
+.form-radio{
+    font-style: italic;
+    font-family: 'Playpen Sans', cursive;
+    color: white;
+    list-style: none;
+}

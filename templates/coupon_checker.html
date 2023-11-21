@@ -1,0 +1,38 @@
+{% include "header.html" %}
+
+<div class="page-top">
+    <h1>Coupon Checker</h1>
+    <h5>Check updates on a coupon ccode</h5>
+</div>
+
+<div class="container">
+
+    <div class="row">
+      {% with messages = get_flashed_messages() %}
+      {% if messages %}
+
+      {% for message in messages %}
+      <div class="col-lg-8 col-md-10 mx-auto content">
+        <i style="color:red;">{{message}}</i>
+      </div>
+      {% endfor %}
+
+      {% endif %}
+      {% endwith %}
+
+      <div class="col-lg-8 col-md-10 mx-auto content">
+          <form method="post">
+              <div class="form-padding">
+                  {{ form.coupon(class='form-control', placeholder='Paste Coupon') }}
+              </div>
+              <div class="form-padding">
+                  {{ form.submit(class='login-btn') }}
+              </div>
+              <div style="padding-bottom: 100px"></div>
+
+          </form>
+      </div>
+    </div>
+  </div>
+
+{% include "footer.html" %}

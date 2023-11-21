@@ -8,9 +8,9 @@
             <div class="col-6 col-sm-3">
                 <h5 class="text-center">My Account</h5>
                 <ul class="text-centers">
-                <li><a class="nav-link" href="#">Sign in</a></li>
-                <li><a class="nav-link" href="#">Sign up</a></li>
-                <li><a class="nav-link" href="#">Coupon validator</a></li>
+                <li><a class="nav-link" href="{{ url_for('login') }}">Sign in</a></li>
+                <li><a class="nav-link" href="{{ url_for('register') }}">Sign up</a></li>
+                <li><a class="nav-link" href="{{ url_for('coupon_check') }}">Coupon validator</a></li>
                 </ul>
             </div>
             <div class="col-6 col-sm-3">
@@ -25,9 +25,9 @@
             <div class="col-6 col-sm-3">
                 <h5>Company</h5>
                 <ul>
-                    <li><a class="nav-link" href="#">About us</a></li>
-                <li><a class="nav-link" href="#">How it works</a></li>
-                <li><a class="nav-link" href="#">Faq</a></li>
+                    <li><a class="nav-link" href="{{ url_for('about_us') }}">About us</a></li>
+                <li><a class="nav-link" href="{{ url_for('how_it_works') }}">How it works</a></li>
+                <li><a class="nav-link" href="{{ url_for('faq') }}">Faq</a></li>
                 </ul>
 
             </div>

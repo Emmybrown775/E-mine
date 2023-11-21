@@ -1,0 +1,63 @@
+{% import "bootstrap/wtf.html" as wtf %}
+{% include 'header.html' %}
+<div class="page-top">
+    <h1>Welcome to e-mine</h1>
+    <h5>Sign up to get started</h5>
+
+
+</div>
+<div class="container">
+
+    <div class="row">
+      {% with messages = get_flashed_messages() %}
+      {% if messages %}
+
+      {% for message in messages %}
+      <div class="col-lg-8 col-md-10 mx-auto content">
+        <i style="color:red;">{{message}}</i>
+      </div>
+      {% endfor %}
+
+      {% endif %}
+      {% endwith %}
+
+      <div class="col-lg-8 col-md-10 mx-auto content">
+          <form method="post">
+              <div class="form-padding">
+                  {{ form.username(class='form-control', placeholder='Username') }}
+              </div>
+              <div class="form-padding">
+                  {{ form.fullname(class='form-control', placeholder='Full Name') }}
+              </div>
+              <div class="form-padding">
+                  {{ form.email(class='form-control', placeholder='Email') }}
+              </div>
+              <div class="form-padding">
+                  {{ form.phone_number(class='form-control', placeholder='Phone Number') }}
+              </div>
+              <div class="form-padding">
+                  {{ form.upline(class='form-control', placeholder='Upline', readonly=true) }}
+              </div>
+              <div class="form-padding">
+                  <p>Do you have a coupon? <a href="{{ url_for('buy_coupon') }}">Buy Coupon</a></p>
+                  {{ form.coupon(class='form-control', placeholder='Coupon') }}
+              </div>
+              <div class="form-padding">
+                  {{ form.password(class='form-control', placeholder='Password') }}
+              </div>
+              <div class="form-padding">
+                  {{ form.tandc( class='form-radio') }}
+              </div>
+              <div class="form-padding">
+                  {{ form.submit(class='login-btn') }}
+              </div>
+          </form>
+          <div style="padding-bottom: 100px">
+              <p>Already own an account? <a href="{{ url_for("login") }}">Sign in</a></p>
+          </div>
+
+      </div>
+    </div>
+  </div>
+
+{% include "footer.html" %}

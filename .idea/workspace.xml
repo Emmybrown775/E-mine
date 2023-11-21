@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="972abca0-bf96-4274-bf4d-28f5242c30de" name="Changes" comment="top earners and buy coupon pages integrated">
-      <change afterPath="$PROJECT_DIR$/templates/about_us.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/faq.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/how_it_works.html" afterDir="false" />
+    <list default="true" id="972abca0-bf96-4274-bf4d-28f5242c30de" name="Changes" comment="about us, how it works and faq implemented">
+      <change afterPath="$PROJECT_DIR$/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/coupon_checker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/sign_in.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/sign_up.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/buy_coupon.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/buy_coupon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,12 +90,9 @@
       <recent name="C:\Users\DELL\PycharmProjects\portfolio\egc_ptc" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="egc_ptc" type="Python.FlaskServer">
-      <option name="flaskDebug" value="true" />
+  <component name="RunManager" selected="Flask server.egc_ptc">
+    <configuration name="e-mine" type="Python.FlaskServer">
       <module name="egc_ptc" />
-      <option name="target" value="$PROJECT_DIR$/app.py" />
-      <option name="targetType" value="PATH" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="C:\Users\DELL\PycharmProjects\portfolio\egc_ptc\venv\Scripts\python.exe" />
@@ -107,6 +105,10 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Flask server.egc_ptc" />
+      <item itemvalue="Flask server.e-mine" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -129,7 +131,9 @@
       <workItem from="1700219269561" duration="3758000" />
       <workItem from="1700409728578" duration="7989000" />
       <workItem from="1700498929336" duration="3594000" />
-      <workItem from="1700503800540" duration="1100000" />
+      <workItem from="1700503800540" duration="1392000" />
+      <workItem from="1700551493798" duration="4264000" />
+      <workItem from="1700556488964" duration="7474000" />
     </task>
     <task id="LOCAL-00001" summary="e-mine phase n1">
       <created>1699965787128</created>
@@ -215,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700417812063</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="about us, how it works and faq implemented">
+      <created>1700505170506</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1700505170506</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,9 +274,10 @@
     <MESSAGE value="requirements.txt added please 2" />
     <MESSAGE value="requirements.txt added please 3" />
     <MESSAGE value="top earners and buy coupon pages integrated" />
-    <option name="LAST_COMMIT_MESSAGE" value="top earners and buy coupon pages integrated" />
+    <MESSAGE value="about us, how it works and faq implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="about us, how it works and faq implemented" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/egc_ptc$egc_ptc.coverage" NAME="egc_ptc Coverage Results" MODIFIED="1700504279261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/egc_ptc$egc_ptc.coverage" NAME="egc_ptc Coverage Results" MODIFIED="1700558619599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="972abca0-bf96-4274-bf4d-28f5242c30de" name="Changes" comment="about us, how it works and faq implemented">
-      <change afterPath="$PROJECT_DIR$/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/coupon_checker.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/sign_in.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/sign_up.html" afterDir="false" />
+    <list default="true" id="972abca0-bf96-4274-bf4d-28f5242c30de" name="Changes" comment="sign in and others implemented">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +126,7 @@
       <workItem from="1700498929336" duration="3594000" />
       <workItem from="1700503800540" duration="1392000" />
       <workItem from="1700551493798" duration="4264000" />
-      <workItem from="1700556488964" duration="7474000" />
+      <workItem from="1700556488964" duration="8084000" />
     </task>
     <task id="LOCAL-00001" summary="e-mine phase n1">
       <created>1699965787128</created>
@@ -226,7 +219,21 @@
       <option name="project" value="LOCAL" />
       <updated>1700505170506</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="sign in and others implemented">
+      <created>1700564342502</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1700564342502</updated>
+    </task>
+    <task id="LOCAL-00015" summary="sign in and others implemented">
+      <created>1700564583689</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1700564583689</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,7 +282,8 @@
     <MESSAGE value="requirements.txt added please 3" />
     <MESSAGE value="top earners and buy coupon pages integrated" />
     <MESSAGE value="about us, how it works and faq implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="about us, how it works and faq implemented" />
+    <MESSAGE value="sign in and others implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="sign in and others implemented" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/egc_ptc$egc_ptc.coverage" NAME="egc_ptc Coverage Results" MODIFIED="1700558619599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />

@@ -15,7 +15,7 @@
 </div>
 
 <div id="poster_1" class="poster_div">
-    <img class="poster" src="{{ url_for('static', filename= 'images/poster.PNG') }}" >
+    <img class="poster" src="{{ url_for('static', filename= 'images/poster.PNG') }}">
 </div>
 <hr class="solid">
 
@@ -24,20 +24,34 @@
     <p>e-Mine is an intelligent financial system, that enables you to work and earn hugely online. It has the potential
         to transform your financial status without you putting in much efforts. It's the new legitimate way to make
         money online from our current economic evolution.</p>
-<div class="container text-center">
-<div class="row justify-content-center align-item-center">
-    {% for data in why_choose_us %}
-    <div class="why_choose_us_content card col-lg-4" >
-        <div class="card-title">
-        <h5>{{ data['title'] }}</h5>
-        </div>
-        <div class="card-body">
-        <p>{{ data['content'] }}</p>
+<div style="padding-bottom: 100px"></div>
+    <div class="container text-center">
+        <div class="row justify-content-center align-item-center">
+            {% for data in why_choose_us %}
+                {% if data["title"] == "Secure and Reliable" %}
+                    <div class="why_choose_us_content card-middle card col-lg-4">
+                        <div class="card-title">
+                            <h5>{{ data['title'] }}</h5>
+                        </div>
+                        <div class="card-body">
+                            <p>{{ data['content'] }}</p>
+                        </div>
+                    </div>
+                {% else %}
+                    <div class="why_choose_us_content card col-lg-4">
+                        <div class="card-title">
+                            <h5>{{ data['title'] }}</h5>
+                        </div>
+                        <div class="card-body">
+                            <p>{{ data['content'] }}</p>
+                        </div>
+                    </div>
+                {% endif %}
+
+
+            {% endfor %}
         </div>
     </div>
-    {% endfor %}
-</div>
-</div>
 
 </div>
 {% include "footer.html" %}

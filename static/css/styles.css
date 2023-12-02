@@ -23,7 +23,8 @@ background-image: linear-gradient(180deg, black 0%, #202040 100%);
 
 h1{
     color: white;
-font-family: 'Roboto', sans-serif;    font-size: 3rem;
+font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
     font-weight: 900;
 }
 
@@ -49,13 +50,13 @@ font-family: 'Open Sans', sans-serif;    color: white;
 h5{
     color: #B030B0;
     font-size: 1.5rem;
-font-family: 'Roboto', sans-serif;
+font-family: 'Montserrat', sans-serif;
 }
 
 h3{
     color: white;
     font-size: 2rem;
-font-family: 'Roboto', sans-serif;
+font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -194,13 +195,46 @@ font-family: 'Roboto', sans-serif;    color: white;
     text-align: center;
 }
 
+@media only screen and (max-width: 1200px){
+    .card{
+            box-shadow: 5px 5px 5px 5px black;
+        background-color: #B030B0;
+        padding: 20px;
+        margin: 20px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .card{
+        background-color: #924bb2;
+            margin: 20px;
+
+    }
+    .card-middle{
+        background-color: #B030B0;
+        margin-top: -80px;
+        max-height: 200px;
+        box-shadow: 5px 5px 5px 5px black;
+
+    }
+    
+}
+
+
+
 .card{
-    background-color: #602080;
     width: 19rem;
     padding: 10px;
-    margin: 20px;
     text-align: center;
     border-radius: 25px;
+}
+.card h5{
+    color: white;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.card p{
+    font-size: 0.9rem;
 }
 
 #footer{

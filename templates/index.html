@@ -1,30 +1,48 @@
 {% include "header.html" %}
 <div id="home-top">
-    <div class="home-top-text container-fluid">
-        <h1>Mine & Earn</h1>
-        <h1>Weekly Income</h1>
-        <h1>On <span class="e-mine">e-Mine</span></h1>
-        <p>e-Mine is an online innovative designed to empower
-            its users and individuals with various ways of maximizing their earnings online and propel
-            their financial growth</p>
-        <button class="btn" type="button">Login</button>
-        <button class="btn" type="button">Sign Up</button>
-
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-12 col-sm-12">
+                <h1>Mine & Earn</h1>
+                <h1>Weekly Income</h1>
+                <h1>On <span class="e-mine">e-Mine</span></h1>
+                <p>e-Mine is an online innovative designed to empower
+                    its users and individuals with various ways of maximizing their earnings online and propel
+                    their financial growth</p>
+                <button class="btn" type="button">Login</button>
+                <button class="btn" type="button">Sign Up</button>
+            </div>
+{#            <div class="col-sm-6 col-lg-6 col-sm-6">#}
+{#                <img src="{{ url_for('static', filename='/images/poster.png') }}" style="width: 100%">#}
+{#            </div>#}
+        </div>
     </div>
+
     <hr class="solid">
 </div>
 
-<div id="poster_1" class="poster_div">
-    <img class="poster" src="{{ url_for('static', filename= 'images/poster.PNG') }}">
-</div>
-<hr class="solid">
 
 <div id="why_choose_us">
-    <h1>Why Choose <br> <span class="e-mine">e-mine</span></h1>
-    <p>e-Mine is an intelligent financial system, that enables you to work and earn hugely online. It has the potential
-        to transform your financial status without you putting in much efforts. It's the new legitimate way to make
-        money online from our current economic evolution.</p>
-<div style="padding-bottom: 100px"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 col-lg-6">
+                <h1>Why Choose <br> <span class="e-mine">e-mine</span></h1>
+                <p>e-Mine is an intelligent financial system, that enables you to work and earn hugely online. It has
+                    the potential
+                    to transform your financial status without you putting in many efforts. It's the new legitimate way
+                    to make
+                    money online from our current economic evolution.</p>
+            </div>
+            <div class="col-6 col-lg-6">
+                <div id="poster_1" class="poster_div">
+                    <img class="poster" src="{{ url_for('static', filename= 'images/poster.PNG') }}">
+                </div>
+                <hr class="solid">
+            </div>
+        </div>
+    </div>
+
+    <div style="padding-bottom: 100px"></div>
     <div class="container text-center">
         <div class="row justify-content-center align-item-center">
             {% for data in why_choose_us %}

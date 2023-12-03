@@ -1,290 +1,299 @@
-.navbar a{
+.navbar a {
     font-family: 'Open Sans', sans-serif;
 
     color: white;
 }
 
-.navbar ul a{
+.navbar ul a {
     color: white;
 }
 
-.e-mine{
+.e-mine {
     color: #B030B0;
 }
 
 
-body{
+body {
     background-color: black;
-    padding: 0;
-background-image: linear-gradient(180deg, black 0%, #202040 100%);
+    background-image: linear-gradient(180deg, black 0%, #202040 100%);
 
 
 }
 
-h1{
+h1 {
     color: white;
-font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
     font-weight: 900;
 }
 
-.poster{
+.poster {
     width: 100%;
     text-align: center;
     border-radius: 25px;
 }
-.poster_div{
-        padding-left: 20px;
+
+.poster_div {
+    padding-left: 20px;
     padding-right: 20px;
 }
 
-p{
-font-family: 'Open Sans', sans-serif;    color: white;
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
 
 }
 
-.centered_p{
+.centered_p {
     padding: 0 20%;
 }
 
-h5{
+h5 {
     color: #B030B0;
     font-size: 1.5rem;
-font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
-h3{
+h3 {
     color: white;
     font-size: 2rem;
-font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
-.head{
+.head {
     padding: 100px 0;
     background-color: #C70039;
 }
 
 
-
 .btn {
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  color: #ffffff;
-  font-size: 15px;
-  background: #FFD28F;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+    color: #ffffff;
+    font-size: 15px;
+    background: #FFD28F;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
 }
 
 .btn:hover {
-  background: #B4BDFF;
-  text-decoration: none;
+    background: #B4BDFF;
+    text-decoration: none;
 }
 
 /*NAVBAR*/
 
 .navcontainer {
-  display: inline-block;
-  cursor: pointer;
+    display: inline-block;
+    cursor: pointer;
 }
 
 .bar1, .bar2, .bar3 {
-  width: 35px;
-  height: 3px;
-  background-color: white;
-  margin: 6px 0;
-  transition: 0.4s;
+    width: 35px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
 }
 
 /* Rotate first bar */
 .change .bar1 {
-  transform: translate(0, 11px) rotate(-45deg);
+    transform: translate(0, 11px) rotate(-45deg);
 }
 
 /* Fade out the second bar */
-.change .bar2 {opacity: 0;}
+.change .bar2 {
+    opacity: 0;
+}
 
 /* Rotate last bar */
 .change .bar3 {
-  transform: translate(0, -11px) rotate(45deg);
+    transform: translate(0, -11px) rotate(45deg);
 }
 
 hr.solid {
-  border-top: 3px solid white;
+    border-top: 3px solid white;
 }
 
 
-
-.navbar-nav{
+.navbar-nav {
     padding: 12px;
 }
 
-.nav-top{
+.nav-top {
     padding: 10px;
 }
 
-.my_navbar{
+.my_navbar {
 }
 
-.dropdown-menu{
+.dropdown-menu {
     background-color: #202040;
 }
 
 /*Home Top*/
 
-#home-top{
+#home-top {
     padding-top: 50px;
 
 }
 
-.home-top-text{
+.home-top-text {
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 100px ;
+    padding-bottom: 100px;
 }
 
 .container-fluid {
     padding: 3% 15%;
 }
 
-#home-top p{
+#home-top p {
     color: white;
-    font-size: 1.3rem;
+    font-size: 1rem;
+    line-height: 2rem;
 
 }
 
-#poster_1{
+#poster_1 {
     padding-top: 100px;
     padding-bottom: 50px;
 }
 
 
 .btn {
-  -webkit-border-radius: 28px;
-  -moz-border-radius: 28px;
-  border-radius: 28px;
-font-family: 'Roboto', sans-serif;    color: white;
-  font-size: 20px;
-  background: #B030B0;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 20px;
+    background: #B030B0;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 10px;
 }
 
 .btn:hover {
-  background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-  text-decoration: none;
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
 }
 
 
 /*Why Choose Us*/
 
-#why_choose_us{
+#why_choose_us {
     padding-left: 20px;
     padding-right: 20px;
+    text-align: justify;
+    padding-top: 100px;
+}
+
+.why_choose_us_content {
     text-align: center;
 }
 
-.why_choose_us_content{
-    text-align: center;
-}
-
-@media only screen and (max-width: 1200px){
-    .card{
-            box-shadow: 5px 5px 5px 5px black;
-        background-color: #B030B0;
+@media only screen and (max-width: 1200px) {
+    .card {
+        box-shadow: rgba(145, 158, 171, 0.4) -20px 20px 40px 0px;
+        background-color: white;
         padding: 20px;
         margin: 20px;
     }
 }
 
 @media only screen and (min-width: 1200px) {
-    .card{
-        background-color: #924bb2;
-            margin: 20px;
+    .card {
+        background-color: rgb(244, 246, 248);
+        margin: 20px;
 
     }
-    .card-middle{
-        background-color: #B030B0;
+
+    .card-middle {
+        background-color: white;
         margin-top: -80px;
         max-height: 200px;
-        box-shadow: 5px 5px 5px 5px black;
+        box-shadow: rgba(145, 158, 171, 0.4) -20px 20px 40px 0px;
 
     }
-    
+
 }
 
 
-
-.card{
+.card {
     width: 19rem;
     padding: 10px;
     text-align: center;
     border-radius: 25px;
 }
-.card h5{
-    color: white;
+
+.card h5 {
+    color: black;
     font-size: 1rem;
     font-weight: bolder;
 }
-.card p{
+
+.card p {
     font-size: 0.9rem;
+    color: black;
 }
 
-#footer{
+#footer {
     padding: 50px 20px;
     background-color: #202060;
     text-align: center;
 }
 
-#footer a{
+#footer a {
     color: white;
-font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
-#footer ul{
+#footer ul {
     list-style-type: none;
     padding-left: 0;
 }
 
-#footer li{
+#footer li {
     text-align: center;
 }
 
 
 /*BUY COUPON*/
-.page-top{
+.page-top {
     padding: 5% 10%;
 }
 
-.vendors{
+.vendors {
     padding: 50px 5%;
 }
 
-.vendor{
+.vendor {
     padding: 10px 10px;
     background-color: white;
     border-radius: 25px;
 }
 
-.profile_pic{
+.profile_pic {
     border-radius: 100px;
 }
 
 .message-btn {
-  background: #202040;
-  -webkit-border-radius: 28px;
-  -moz-border-radius: 28px;
-  border-radius: 28px;
-    font-family: 'Quicksand', sans-serif;  color: #ffffff;
-  border: solid #B030B0 2px;
-  text-decoration: none;
+    background: #202040;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+    border: solid #B030B0 2px;
+    text-decoration: none;
     padding: 10px 10px;
 }
 
@@ -294,19 +303,19 @@ font-family: 'Open Sans', sans-serif;
 
 
 /*Faqs*/
-.accordion-item{
+.accordion-item {
     background-color: #202040;
     margin: 20px;
 }
 
-.accordion-button{
+.accordion-button {
     background-color: #202040;
     color: white;
     font-size: 1rem;
-        font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
-.accordion-body{
+.accordion-body {
     font-family: 'Quicksand', sans-serif;
     color: white;
 }
@@ -314,13 +323,14 @@ font-family: 'Open Sans', sans-serif;
 /*LOGIN*/
 
 .login-btn {
-  background: #202040;
-  -webkit-border-radius: 28px;
-  -moz-border-radius: 28px;
-  border-radius: 28px;
-    font-family: 'Quicksand', sans-serif;  color: #ffffff;
-  border: solid #B030B0 2px;
-  text-decoration: none;
+    background: #202040;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+    border: solid #B030B0 2px;
+    text-decoration: none;
     padding: 10px 10px;
     width: 100%;
 }
@@ -329,16 +339,16 @@ font-family: 'Open Sans', sans-serif;
     background: #B030B0
 }
 
-.form-padding{
+.form-padding {
     padding: 20px 20px 0;
 }
 
-.form-control{
+.form-control {
     font-style: italic;
     font-family: 'Playpen Sans', cursive;
 }
 
-.form-radio{
+.form-radio {
     font-style: italic;
     font-family: 'Playpen Sans', cursive;
     color: white;
